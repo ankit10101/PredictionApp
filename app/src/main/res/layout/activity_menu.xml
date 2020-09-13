@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.activity.MenuActivity">
+
+    <Button
+        android:id="@+id/btnPredictDisease"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_layout"
+        android:ems="10"
+        android:text="Predict Disease"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnComingSoon"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_layout"
+        android:ems="10"
+        android:text="Coming Soon"
+        android:textColor="#fff"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_layout"
+        android:ems="10"
+        android:text="Read about diseases"
+        android:textColor="#fff" />
+
+
+</LinearLayout>

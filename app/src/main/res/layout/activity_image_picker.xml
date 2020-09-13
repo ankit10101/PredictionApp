@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.ImagePickerActivity">
+
+    <ImageView
+        android:id="@+id/ivReport"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:padding="8dp"
+        android:src="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_layout"
+            android:ems="10"
+            android:text="Select/Change Image"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnPredict"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_layout"
+            android:ems="10"
+            android:text="Predict"
+            android:textColor="#fff" />
+
+</LinearLayout>
